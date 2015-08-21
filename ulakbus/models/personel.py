@@ -191,7 +191,7 @@ yetki_servisi		authorisation_level
 "borcNevi"		debt_type = field.String("Borç Nevi", index=True)
 "calistigiKurum"	work_place = field.String("Borçlandığı Tarihte Çalıştığı Kurum", index=True)
 "cinsiyet"		gender = field.String("Cinsiyet", index=True)
-"denklikBolum"		equivalent_departmen = field.String("Denklik Alınan Bölümün Adı", index=True)
+"denklikBolum"		equivalent_department = field.String("Denklik Alınan Bölümün Adı", index=True)
 "denklikOkul"		equivalent_school = field.String("Denklik Alınan Okulun Adı", index=True)
 "denklikTarihi"		equivalent_date = field.Date("Denklik Tarihi", index=True)
 "derece"		degree = field.Integer("Borçlanmaya Esas Derece", index=True)
